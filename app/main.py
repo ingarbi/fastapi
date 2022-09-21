@@ -42,7 +42,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"data": "Hello World to REST API app from FastAPI"}
+    return {"data": "Hello World to REST API app from FastAPI and CI/CD"}
 
 # @app.get("/sqlalchemy")
 # def test_posts(db: Session = Depends(get_db)):
